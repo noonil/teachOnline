@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HSExerciseDetailVC">
+            <connections>
+                <outlet property="classActionView" destination="6mg-pg-e6m" id="yXh-8Z-RmK"/>
+                <outlet property="timingView" destination="ebj-1t-ghh" id="eeE-BY-8LJ"/>
+                <outlet property="timingViewHeightConstraint" destination="AuE-IZ-bOE" id="n7x-4m-1JB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewWrongBtn" destination="Hf4-B6-gyO" id="MOe-qv-pLQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mg-pg-e6m">
+                    <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA7-52-NlK">
+                            <rect key="frame" x="8" y="3" width="67" height="44"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66.5" id="Co2-sx-Lma"/>
+                                <constraint firstAttribute="height" constant="44" id="WyP-mN-ix2"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="上题"/>
+                            <state key="highlighted" image="上题-f"/>
+                            <connections>
+                                <action selector="preBtnTapped:" destination="-1" eventType="touchUpInside" id="5E4-MJ-bee"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hf4-B6-gyO">
+                            <rect key="frame" x="270" y="9" width="60" height="32"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="YMz-qB-ikc"/>
+                                <constraint firstAttribute="width" constant="60" id="dIG-Tn-nDr"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="viewWrongBtnTapped:" destination="-1" eventType="touchUpInside" id="kDF-mt-Lma"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h96-AX-Awb">
+                            <rect key="frame" x="525" y="3" width="67" height="44"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="1jL-GP-aLv"/>
+                                <constraint firstAttribute="width" constant="66.5" id="zzz-OG-RTH"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="下题"/>
+                            <state key="highlighted" image="下题_f"/>
+                            <connections>
+                                <action selector="nextBtnTapped:" destination="-1" eventType="touchUpInside" id="73Q-rY-I4J"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Hf4-B6-gyO" firstAttribute="centerY" secondItem="6mg-pg-e6m" secondAttribute="centerY" id="Tof-Ip-PCx"/>
+                        <constraint firstAttribute="trailing" secondItem="h96-AX-Awb" secondAttribute="trailing" constant="8" id="iDP-78-q73"/>
+                        <constraint firstItem="sA7-52-NlK" firstAttribute="centerY" secondItem="6mg-pg-e6m" secondAttribute="centerY" id="n6P-uu-qVJ"/>
+                        <constraint firstItem="sA7-52-NlK" firstAttribute="leading" secondItem="6mg-pg-e6m" secondAttribute="leading" constant="8" id="txm-gK-thR"/>
+                        <constraint firstAttribute="height" constant="49" id="u0C-s8-ye1"/>
+                        <constraint firstItem="Hf4-B6-gyO" firstAttribute="centerX" secondItem="6mg-pg-e6m" secondAttribute="centerX" id="uhh-bd-VFY"/>
+                        <constraint firstItem="h96-AX-Awb" firstAttribute="centerY" secondItem="6mg-pg-e6m" secondAttribute="centerY" id="z49-f7-h5K"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebj-1t-ghh" userLabel="timingView" customClass="HSExerciseButtonView">
+                    <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="AuE-IZ-bOE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ebj-1t-ghh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="2DZ-Um-xzO"/>
+                <constraint firstAttribute="trailing" secondItem="6mg-pg-e6m" secondAttribute="trailing" id="Fp4-zS-3sz"/>
+                <constraint firstAttribute="trailing" secondItem="ebj-1t-ghh" secondAttribute="trailing" id="RGu-Bk-Ys9"/>
+                <constraint firstAttribute="bottom" secondItem="6mg-pg-e6m" secondAttribute="bottom" id="fEJ-Vt-MiI"/>
+                <constraint firstItem="6mg-pg-e6m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kJc-7r-VDe"/>
+                <constraint firstItem="ebj-1t-ghh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yV3-8N-Mub"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="上题" width="66" height="44"/>
+        <image name="上题-f" width="66" height="44"/>
+        <image name="下题" width="66" height="44"/>
+        <image name="下题_f" width="66" height="44"/>
+    </resources>
+</document>

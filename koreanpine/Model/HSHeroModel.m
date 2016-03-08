@@ -1,0 +1,13 @@
+//
+//  HSHeroModel.m
+//  koreanpine
+//
+//  Created by Victor on 15/11/5.
+//  Copyright © 2015年 Christ. All rights reserved.
+//
+
+#import "HSHeroModel.h"
+
+@implementation HSHeroModel
+
+@end

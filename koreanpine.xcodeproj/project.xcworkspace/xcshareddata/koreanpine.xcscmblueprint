@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3d0ee67e-1af5-9545-9286-897c9a07b90a++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3d0ee67e-1af5-9545-9286-897c9a07b90a++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3d0ee67e-1af5-9545-9286-897c9a07b90a++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5326F6CB-0323-4838-A8CA-574F9EBC9A2D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3d0ee67e-1af5-9545-9286-897c9a07b90a++505" : "iosHS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "koreanpine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "koreanpine\/koreanpine.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.10.223\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3d0ee67e-1af5-9545-9286-897c9a07b90a++505"
+    }
+  ]
+}

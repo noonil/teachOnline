@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5326F6CB-0323-4838-A8CA-574F9EBC9A2D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>koreanpine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3d0ee67e-1af5-9545-9286-897c9a07b90a</key>
+		<string>https://192.168.10.223/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/koreanpine/koreanpine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3d0ee67e-1af5-9545-9286-897c9a07b90a</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3d0ee67e-1af5-9545-9286-897c9a07b90a</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3d0ee67e-1af5-9545-9286-897c9a07b90a</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Koreanpine(style)</string>
+		</dict>
+	</array>
+</dict>
+</plist>
